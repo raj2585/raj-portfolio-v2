@@ -31,7 +31,6 @@ body {
     margin: 0 auto;
     padding: 2rem;
     position: relative;
-    padding-bottom: 5rem;
 }
 
 .container::before {
@@ -463,15 +462,13 @@ h3 {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
     width: 100%;
     padding: 1rem;
     background-color: var(--bg-color);
     border-top: 1px solid rgba(228, 168, 83, 0.1);
     font-size: 0.9rem;
-    z-index: 100;
+    margin-top: 2rem;
 }
 
 .footer-content {
