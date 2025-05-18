@@ -459,4 +459,32 @@ h3 {
     .side-social {
         display: none;
     }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    border-top: 1px solid rgba(228, 168, 83, 0.1);
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.footer-content a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: var(--accent-color);
 } 
