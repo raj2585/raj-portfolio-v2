@@ -31,6 +31,9 @@ body {
     margin: 0 auto;
     padding: 2rem;
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container::before {
@@ -462,7 +465,7 @@ h3 {
 }
 
 footer {
-    position: relative;
+    margin-top: auto;
     width: 100%;
     padding: 1rem;
     background-color: var(--bg-color);
@@ -493,5 +496,6 @@ footer {
 }
 
 main {
+    flex: 1;
     margin-bottom: 0;
 } 
