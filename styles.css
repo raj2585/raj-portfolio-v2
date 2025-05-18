@@ -20,7 +20,7 @@ body {
     padding: 2rem;
     background-image: 
         radial-gradient(circle at 80% 20%, rgba(236, 108, 114, 0.03) 0%, transparent 60%),
-        radial-gradient(circle at 90% 50%, rgba(234, 82, 117, 0.03) 0%, transparent 60%);
+        radial-gradient(circle at 80% 20%, rgba(236, 108, 114, 0.03) 0%, transparent 60%);
 }
 
 .container {
@@ -34,8 +34,8 @@ body {
     content: "感謝";
     position: fixed;
     font-size: 12.5rem;
-    opacity: 0.01;
-    top: 50%;
+    opacity: 0.007;
+    top: 40%;
     right: 5%;
     transform: translateY(-50%);
     z-index: -1;
