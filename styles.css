@@ -20,7 +20,7 @@ body {
     padding: 2rem;
     background-image: 
         radial-gradient(circle at 80% 20%, rgba(236, 108, 114, 0.03) 0%, transparent 60%),
-        radial-gradient(circle at 80% 20%, rgba(236, 108, 114, 0.03) 0%, transparent 60%);
+        radial-gradient(circle at 20% 80%, rgba(236, 108, 114, 0.03) 0%, transparent 60%);
 }
 
 .container {
