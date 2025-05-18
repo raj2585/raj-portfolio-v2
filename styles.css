@@ -468,7 +468,6 @@ footer {
     background-color: var(--bg-color);
     border-top: 1px solid rgba(228, 168, 83, 0.1);
     font-size: 0.9rem;
-    margin-top: 2rem;
 }
 
 .footer-content {
@@ -491,4 +490,8 @@ footer {
 
 .footer-content a:hover {
     color: var(--accent-color);
+}
+
+main {
+    margin-bottom: 0;
 } 
