@@ -25,8 +25,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .container {
@@ -34,7 +33,7 @@ body {
     margin: 0 auto;
     padding: 2rem;
     position: relative;
-    flex: 1;
+    padding-bottom: 80px; /* Height of footer + some space */
 }
 
 .container::before {
@@ -466,11 +465,13 @@ h3 {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background-color: var(--bg-color);
     border-top: 1px solid rgba(228, 168, 83, 0.1);
     font-size: 0.9rem;
-    margin-top: auto;
 }
 
 .footer-content {
@@ -483,6 +484,7 @@ footer {
     align-items: center;
     gap: 1rem;
     height: 60px;
+    padding: 0;
 }
 
 .footer-content a {
