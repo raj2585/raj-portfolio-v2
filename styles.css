@@ -24,16 +24,13 @@ body {
     background-position: 0 0, 0 0;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    position: relative;
 }
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+    margin: 0;
+    padding: 2rem 0;
     position: relative;
-    padding-bottom: 80px; /* Height of footer + some space */
 }
 
 .container::before {
@@ -465,11 +462,9 @@ h3 {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin-top: auto;
     width: 100%;
-    background-color: var(--bg-color);
+    padding: 1rem;
     border-top: 1px solid rgba(228, 168, 83, 0.1);
     font-size: 0.9rem;
 }
@@ -479,12 +474,11 @@ footer {
     margin: 0 auto;
     text-align: center;
     color: var(--text-color);
+    padding: 0 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    height: 60px;
-    padding: 0;
 }
 
 .footer-content a {
