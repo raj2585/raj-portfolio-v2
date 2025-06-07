@@ -9,6 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
         navMenu.classList.toggle('active');
     });
 
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!navMenu.contains(e.target) && !hamburger.contains(e.target) && navMenu.classList.contains('active')) {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }
+    });
+
     // Close menu when clicking a link
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
