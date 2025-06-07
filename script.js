@@ -1,6 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Hamburger menu functionality
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-menu a');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    // Close menu when clicking a link
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+
     // Navigation active state
-    const navLinks = document.querySelectorAll('nav a');
     const sections = document.querySelectorAll('section');
 
     // Update active nav link based on scroll position
