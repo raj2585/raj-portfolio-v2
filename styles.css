@@ -429,11 +429,10 @@ h3 {
 
     .mobile-social {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 2rem;
         margin: 2rem 0;
         padding: 1rem 0;
-        border-top: 1px solid rgba(228, 168, 83, 0.1);
         border-bottom: 1px solid rgba(228, 168, 83, 0.1);
     }
 
@@ -446,6 +445,10 @@ h3 {
     .mobile-social a:hover {
         color: var(--accent-color);
         transform: translateY(-3px);
+    }
+
+    #about {
+        margin-top: 2rem;
     }
 }
 
@@ -518,11 +521,10 @@ h3 {
 
     .mobile-social {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 2rem;
         margin: 2rem 0;
         padding: 1rem 0;
-        border-top: 1px solid rgba(228, 168, 83, 0.1);
         border-bottom: 1px solid rgba(228, 168, 83, 0.1);
     }
 
@@ -535,6 +537,10 @@ h3 {
     .mobile-social a:hover {
         color: var(--accent-color);
         transform: translateY(-3px);
+    }
+
+    #about {
+        margin-top: 2rem;
     }
 }
 
@@ -639,5 +645,39 @@ main {
 
     .hamburger.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
+    }
+}
+
+.mobile-social {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .side-social {
+        display: none;
+    }
+
+    .mobile-social {
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+        margin: 2rem 0;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(228, 168, 83, 0.1);
+    }
+
+    .mobile-social a {
+        color: var(--text-color);
+        font-size: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .mobile-social a:hover {
+        color: var(--accent-color);
+        transform: translateY(-3px);
+    }
+
+    #about {
+        margin-top: 2rem;
     }
 } 
