@@ -422,6 +422,31 @@ h3 {
     .nav-menu a {
         font-size: 1.2rem;
     }
+
+    .side-social {
+        display: none;
+    }
+
+    .mobile-social {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2rem 0;
+        padding: 1rem 0;
+        border-top: 1px solid rgba(228, 168, 83, 0.1);
+        border-bottom: 1px solid rgba(228, 168, 83, 0.1);
+    }
+
+    .mobile-social a {
+        color: var(--text-color);
+        font-size: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .mobile-social a:hover {
+        color: var(--accent-color);
+        transform: translateY(-3px);
+    }
 }
 
 #about p {
@@ -489,6 +514,27 @@ h3 {
 @media (max-width: 768px) {
     .side-social {
         display: none;
+    }
+
+    .mobile-social {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2rem 0;
+        padding: 1rem 0;
+        border-top: 1px solid rgba(228, 168, 83, 0.1);
+        border-bottom: 1px solid rgba(228, 168, 83, 0.1);
+    }
+
+    .mobile-social a {
+        color: var(--text-color);
+        font-size: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .mobile-social a:hover {
+        color: var(--accent-color);
+        transform: translateY(-3px);
     }
 }
 
