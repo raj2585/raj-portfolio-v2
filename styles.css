@@ -431,8 +431,8 @@ h3 {
         display: flex;
         justify-content: flex-start;
         gap: 2rem;
-        margin: 2rem 0;
-        padding: 1rem 0;
+        margin: 0;
+        padding: 2rem 0;
         border-bottom: 1px solid rgba(228, 168, 83, 0.1);
     }
 
@@ -449,6 +449,11 @@ h3 {
 
     #about {
         margin-top: 2rem;
+        padding-top: 2rem;
+    }
+
+    .intro {
+        margin-bottom: 0;
     }
 }
 
@@ -523,8 +528,8 @@ h3 {
         display: flex;
         justify-content: flex-start;
         gap: 2rem;
-        margin: 2rem 0;
-        padding: 1rem 0;
+        margin: 0;
+        padding: 2rem 0;
         border-bottom: 1px solid rgba(228, 168, 83, 0.1);
     }
 
@@ -541,6 +546,11 @@ h3 {
 
     #about {
         margin-top: 2rem;
+        padding-top: 2rem;
+    }
+
+    .intro {
+        margin-bottom: 0;
     }
 }
 
@@ -661,8 +671,8 @@ main {
         display: flex;
         justify-content: flex-start;
         gap: 2rem;
-        margin: 2rem 0;
-        padding: 1rem 0;
+        margin: 0;
+        padding: 2rem 0;
         border-bottom: 1px solid rgba(228, 168, 83, 0.1);
     }
 
@@ -679,5 +689,10 @@ main {
 
     #about {
         margin-top: 2rem;
+        padding-top: 2rem;
+    }
+
+    .intro {
+        margin-bottom: 0;
     }
 } 
