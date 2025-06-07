@@ -399,12 +399,13 @@ h3 {
         right: -250px;
         width: 250px;
         height: 100vh;
-        background-color: var(--bg-color);
+        background-color: rgba(26, 26, 26, 0.95);
         padding: 6rem 2rem 2rem;
         transition: right 0.3s ease;
         z-index: 999;
-        border-left: 1px solid rgba(228, 168, 83, 0.1);
-        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        border-left: 1px solid rgba(228, 168, 83, 0.2);
+        box-shadow: -5px 0 25px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
     }
 
     .nav-menu.active {
@@ -557,12 +558,13 @@ main {
         right: -250px;
         width: 250px;
         height: 100vh;
-        background-color: var(--bg-color);
+        background-color: rgba(26, 26, 26, 0.95);
         padding: 6rem 2rem 2rem;
         transition: right 0.3s ease;
         z-index: 999;
-        border-left: 1px solid rgba(228, 168, 83, 0.1);
-        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        border-left: 1px solid rgba(228, 168, 83, 0.2);
+        box-shadow: -5px 0 25px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
     }
 
     .nav-menu.active {
